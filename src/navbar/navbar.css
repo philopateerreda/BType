@@ -1,0 +1,44 @@
+.navbar {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: center;
+    background-color: var(--primary-color);
+    padding: 10px 20px;
+}
+
+.nav-links {
+    display: flex;
+    gap: 30px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 2rem;
+}
+
+.nav-links a:hover {
+ 
+    color: var(--s1color);
+}
+.nav-links a:active {
+    color: var(--s1color);
+}
+
+.nav-links a:focus {
+    color: var(--s1color);
+}
+
+
+
+.account {
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+.account-circle {
+    font-size: 1.5rem;
+    color: white;
+    cursor: pointer;
+}

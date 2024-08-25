@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Aladin&display=swap');
+
+body {
+  font-family: 'Aladin', cursive;
+  margin: 0;
+  padding: 0;
+  background-color: #4f3232;
+  height: 100svh;
+}
+
+:root {
+    --primary-color: #C80063; 
+    --s1color:#1E3A95;
+    --s2color: #66002F;
+
+}
+
