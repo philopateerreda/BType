@@ -1,9 +1,11 @@
 import React from 'react';
-
+import styles from "./battle.module.css"
+import Board from "./batComp/board.jsx"
 const Battle =()=>{
 return(
-    <div className='page'>
-        <h1>Battle</h1>
+    <div className={styles.page}>
+        <Board />
+       
     </div>
 )
 }

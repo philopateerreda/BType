@@ -1,11 +1,11 @@
 import React from 'react';
-import './home.css';
+import styles from './home.module.css';
 
 const Home = () => {
     console.log("Home component is rendered");
 
     return (
-        <div className="page home-page">
+        <div className={styles.page}>
             <h1>Home Page</h1>
         </div>
     );

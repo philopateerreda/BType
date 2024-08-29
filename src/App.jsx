@@ -13,17 +13,21 @@ import Season from './pages/season/season.component';
 function App() {
     return (
         <Router>
-            <Navbar />
-            <Routes>
-                <Route path="/" element={<Home />} />
-                <Route path="/battle" element={<Battle />} />
-                <Route path="/shop" element={<Shop />} />
-                <Route path="/achievements" element={<Achievements />} />
-                <Route path="/stats" element={<Stats />} />
-                <Route path="/inventory" element={<Inventory />} />
-                <Route path="/league" element={<League />} />
-                <Route path="/season" element={<Season />} />
-            </Routes>
+            <div className='appContainer'>
+                <Navbar />
+                <div className="content">
+                    <Routes>
+                        <Route path="/" element={<Home />} />
+                        <Route path="/battle" element={<Battle />} />
+                        <Route path="/shop" element={<Shop />} />
+                        <Route path="/achievements" element={<Achievements />} />
+                        <Route path="/stats" element={<Stats />} />
+                        <Route path="/inventory" element={<Inventory />} />
+                        <Route path="/league" element={<League />} />
+                        <Route path="/season" element={<Season />} />
+                    </Routes>
+                </div>
+            </div>
         </Router>
     );
 }

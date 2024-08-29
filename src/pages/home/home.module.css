@@ -1,13 +1,22 @@
 .page {
-    height: 100svh;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     background: linear-gradient(135deg, var(--primary-color), var(--s2color));
     color: white;
     font-family: 'Aladin', cursive;
+    border: solid;
+    box-sizing: border-box;
+    height: 90vh; 
+    position: relative;
+    
+     
 }
 
 .page h1 {
+    position: absolute; 
+    top: 400px;
     font-size: 3rem;
+    left: 50%; 
+    transform: translateX(-50%); 
 }

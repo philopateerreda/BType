@@ -4,11 +4,18 @@
     align-items: center;
     background-color: var(--primary-color);
     padding: 10px 20px;
+    position: relative;
+    width: 100svw;
+    height: 10svh;
+    box-sizing: border-box;
+    
+    
 }
 
 .nav-links {
     display: flex;
     gap: 30px;
+    position: relative;
 }
 
 .nav-links a {

@@ -6,6 +6,10 @@
     background: linear-gradient(135deg, var(--primary-color), var(--s2color));
     color: white;
     font-family: 'Aladin', cursive;
+    box-sizing: border-box;
+    height: 90vh; 
+    position: relative;
+    border: solid;
 }
 
 .page h1 {

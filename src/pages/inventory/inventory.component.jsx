@@ -1,10 +1,10 @@
 import React from "react";
-import './inventory.css'
+import styles from "./inventory.module.css"
 
 
 const Inventory = ()=>{
     return(
-        <div className="page">
+        <div className={styles.page}>
             <h1>Inventory Page</h1>
         </div>
     )
